@@ -1,6 +1,6 @@
 # npmtest-siege
 
-#### test coverage for  [siege (v0.2.0)](https://github.com/kissjs/siege.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-siege.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-siege) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-siege.svg)](https://travis-ci.org/npmtest/node-npmtest-siege)
+#### basic test coverage for  [siege (v0.2.0)](https://github.com/kissjs/siege.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-siege.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-siege) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-siege.svg)](https://travis-ci.org/npmtest/node-npmtest-siege)
 
 #### http benchmark by nodejs
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-siege/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-siege/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-siege/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-siege/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-siege/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-siege/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-siege/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-siege/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-siege/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-siege/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-siege/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-siege/build/coverage.html/index.html)
 
@@ -70,7 +70,8 @@
         "url": "git://github.com/kissjs/siege.js.git"
     },
     "scripts": {},
-    "version": "0.2.0"
+    "version": "0.2.0",
+    "bin": {}
 }
 ```
 
